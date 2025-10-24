@@ -2,6 +2,7 @@ import HeroSection from "./heroSection/heroSection";
 import Baner from "./baner/baner";
 import Repairs from "./repairs/repairs";
 import Bloges from "./bloges/bloges";
+import Request from "./request/request";
 export default function HomePage() {
   return (
     <div className="  text-center ">
@@ -9,7 +10,7 @@ export default function HomePage() {
       <Baner/>
       <Repairs/>  
       <Bloges/>
-
+<Request/>
     </div>
   );
 }

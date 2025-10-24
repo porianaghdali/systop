@@ -28,3 +28,6 @@
 body {
   font-family: 'PeydaWeb', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
 }
+button{
+  cursor: pointer;
+}

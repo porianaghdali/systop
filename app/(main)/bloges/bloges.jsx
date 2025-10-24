@@ -13,7 +13,7 @@ export default function Bloges() {
   const [selected, setSelected] = useState(1);
 
   return (
-    <div className="w-full">
+    <div className="w-full mb-30 ">
       {/* عنوان اصلی */}
       <p
         className="font-bold mb-8 leading-snug text-start px-[8vw]"
@@ -32,7 +32,7 @@ export default function Bloges() {
           background:
             "linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0.03) 100%)",
         }}
-        className=" rounded-t-md px-[8vw] grid lg:grid-cols-3 gap-12 sm:gap-20"
+        className=" rounded-t-md px-[8vw] grid lg:grid-cols-3 gap-12 sm:gap-20 mb-12"
       >
         <div className="col-span-1 lg:col-span-2">
           <ul className="flex flex-wrap gap-6 sm:gap-10 md:gap-12 border-b-[3px] border-[#D9D9D9] px-4 sm:px-10">
@@ -89,13 +89,16 @@ export default function Bloges() {
             className="w-[60%] sm:w-[70%] lg:w-[90%] absolute top-0 -translate-y-1/5 h-auto object-contain"
           />
         </div>
-          <div className="col-span-3  flex overflow-x-scroll  gap-5">
-            <Card />
-            <Card />
-            <Card />
-            <Card />
+        <div className="col-span-3  flex overflow-x-scroll  gap-5">
+          <Card />
+          <Card />
+          <Card />
+          <Card />
         </div>
       </div>
+      <button className="text-[#434343] font-bold text-2xl rounded-lg border-[3px] w-[196px] h-14 text-center">
+        وبلاگ
+      </button>
     </div>
   );
 }
